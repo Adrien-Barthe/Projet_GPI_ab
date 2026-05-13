@@ -219,3 +219,6 @@ __marimo__/
 
 # Other files
 *.mrc
+
+# Pycharm related folder
+.idea
