@@ -1,0 +1,38 @@
+pixel size = 0.66 A
+après bin = 2 pixel size = 1.33 A
+
+
+
+
+Preprocess image:
+1.binning
+2.Normalise the image
+3.padding
+4.check the image format that the cc function accept (convert )
+
+-optionally
+--denoise (filter)
+--crop the image to make test image
+
+Prepare the template (reference = pdb , fait à partir de ce dataset)
+1.import the pdb
+2.make projections (check pixel size, normalisation and image format and dimensions )
+
+-optional:
+--add artificial noise
+
+NCC
+Optimize the shift
+optimize the threshold
+
+optional: if working with side view optimize the angle step
+
+
+Extract the particles
+
+
+
+
+Démarrer:
+faire un env conda avec toutes les librairies et l'import et read de mrc
+
