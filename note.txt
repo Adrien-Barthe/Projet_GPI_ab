@@ -17,6 +17,7 @@ Preprocess image:
 Prepare the template (reference = pdb , fait à partir de ce dataset)
 1.import the pdb
 2.make projections (check pixel size, normalisation and image format and dimensions )
+3.normaliser les images
 
 -optional:
 --add artificial noise
